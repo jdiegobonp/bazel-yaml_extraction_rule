@@ -1,0 +1,1 @@
+# bazel-yaml_extraction_rule
