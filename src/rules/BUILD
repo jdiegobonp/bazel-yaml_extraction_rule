@@ -1,2 +1,1 @@
-load(":yaml_extraction.bzl", "yaml_extraction")
-yaml_extraction(name = "nothing")
+package(default_visibility = ["//internal:__subpackages__"])
