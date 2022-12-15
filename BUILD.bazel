@@ -1,0 +1,5 @@
+load(":yaml_extraction.bzl", "yaml_extraction")
+
+# Run 'bazel build :nothing'. The target will be successfully analyzed,
+# but it does nothing.
+yaml_extraction(name = "nothing")
