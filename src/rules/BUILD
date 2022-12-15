@@ -1,1 +1,1 @@
-package(default_visibility = ["//internal:__subpackages__"])
+package(default_visibility = ["//src:__subpackages__"])

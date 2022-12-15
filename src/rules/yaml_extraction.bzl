@@ -1,6 +1,6 @@
 """Minimalist rule"""
 
-def yaml_extraction(ctx):
+def _yaml_extraction(ctx):
     print("This is a empty rule")
 
-yaml_extraction = rule(implementation = yaml_extraction)
+yaml_extraction = rule(implementation = _yaml_extraction)
